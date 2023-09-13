@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/stripe/stripe-cli/pkg/proxy"
-	"github.com/stripe/stripe-cli/pkg/requests"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/proxy"
+	"github.com/HiteshDatt/stripe-cli/pkg/requests"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

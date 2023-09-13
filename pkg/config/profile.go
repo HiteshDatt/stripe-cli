@@ -12,8 +12,8 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/spf13/viper"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // Profile handles all things related to managing the project specific configurations

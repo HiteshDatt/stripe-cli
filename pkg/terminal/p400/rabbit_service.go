@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stripe/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
 )
 
 // RabbitServicePayload represents the JSON shape of all request bodies when calling Rabbit Service

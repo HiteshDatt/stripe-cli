@@ -14,9 +14,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 
 	"github.com/spf13/cobra"
 )

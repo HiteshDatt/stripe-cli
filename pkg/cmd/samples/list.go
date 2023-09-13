@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/samples"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/samples"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // ListCmd prints a list of all the available sample projects that users can

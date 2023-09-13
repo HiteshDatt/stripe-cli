@@ -3,9 +3,9 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	logs "github.com/stripe/stripe-cli/pkg/cmd/logs"
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	logs "github.com/HiteshDatt/stripe-cli/pkg/cmd/logs"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // LogsCmd is a wrapper for the base logs command

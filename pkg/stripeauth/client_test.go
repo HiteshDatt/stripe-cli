@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 func TestAuthorize(t *testing.T) {

@@ -13,11 +13,11 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/login/acct"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // InteractiveLogin lets the user set configuration on the command line

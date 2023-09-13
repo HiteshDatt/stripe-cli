@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/stripe/stripe-cli/pkg/login/acct"
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 const maxAttemptsDefault = 2 * 60

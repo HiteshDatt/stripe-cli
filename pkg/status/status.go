@@ -9,7 +9,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // Response contains the structure of system statuses from Stripe

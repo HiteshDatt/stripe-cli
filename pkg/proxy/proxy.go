@@ -15,12 +15,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/requests"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/stripeauth"
-	"github.com/stripe/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/requests"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripeauth"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
 )
 
 //

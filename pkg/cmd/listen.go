@@ -15,12 +15,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/proxy"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/validators"
-	"github.com/stripe/stripe-cli/pkg/version"
-	"github.com/stripe/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/proxy"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
 )
 
 const webhooksWebSocketFeature = "webhooks"

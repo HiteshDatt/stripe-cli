@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 // Account is the most outer layer of the json response from Stripe

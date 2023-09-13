@@ -1,6 +1,6 @@
 package gen
 
-import "github.com/stripe/stripe-cli/pkg/spec"
+import "github.com/HiteshDatt/stripe-cli/pkg/spec"
 
 var scalarTypes = map[string]bool{
 	"boolean": true,

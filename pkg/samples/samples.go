@@ -16,11 +16,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	g "github.com/stripe/stripe-cli/pkg/git"
-	gitpkg "github.com/stripe/stripe-cli/pkg/git"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/stripeauth"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	g "github.com/HiteshDatt/stripe-cli/pkg/git"
+	gitpkg "github.com/HiteshDatt/stripe-cli/pkg/git"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripeauth"
 )
 
 // SampleConfig contains all the configuration options for a sample

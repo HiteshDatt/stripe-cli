@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
 )
 
 const testAccountName = "test-account-name"

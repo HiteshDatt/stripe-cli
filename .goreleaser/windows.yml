@@ -8,7 +8,7 @@ project_name: stripe
 builds:
   - id: stripe-windows
     ldflags:
-      - -s -w -X github.com/stripe/stripe-cli/pkg/version.Version={{.Version}}
+      - -s -w -X github.com/HiteshDatt/stripe-cli/pkg/version.Version={{.Version}}
     binary: stripe
     env:
       - CGO_ENABLED=1

@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/afero"
 	"github.com/tidwall/gjson"
 
-	"github.com/stripe/stripe-cli/pkg/git"
-	"github.com/stripe/stripe-cli/pkg/parsers"
-	"github.com/stripe/stripe-cli/pkg/requests"
+	"github.com/HiteshDatt/stripe-cli/pkg/git"
+	"github.com/HiteshDatt/stripe-cli/pkg/parsers"
+	"github.com/HiteshDatt/stripe-cli/pkg/requests"
 )
 
 // SupportedVersions is the version number of the fixture template the CLI supports

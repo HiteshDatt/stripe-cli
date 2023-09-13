@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/open"
-	"github.com/stripe/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/open"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
 )
 
 var nameURLmap = map[string]string{

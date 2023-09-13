@@ -3,8 +3,8 @@ package rpcservice
 import (
 	"context"
 
-	"github.com/stripe/stripe-cli/pkg/samples"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/samples"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

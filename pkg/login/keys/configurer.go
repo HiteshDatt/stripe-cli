@@ -3,8 +3,8 @@ package keys
 import (
 	"github.com/spf13/afero"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // Configurer is an interface for saving login details

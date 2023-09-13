@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stripe/stripe-cli/pkg/spec"
+	"github.com/HiteshDatt/stripe-cli/pkg/spec"
 )
 
 func TestGetTypeAnyOf(t *testing.T) {

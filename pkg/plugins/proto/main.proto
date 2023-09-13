@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto;
 
-option go_package = "github.com/stripe/stripe-cli/plugins/proto";
+option go_package = "github.com/HiteshDatt/stripe-cli/plugins/proto";
 
 service Main {
   rpc RunCommand(RunCommandRequest) returns (RunCommandResponse);

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 //

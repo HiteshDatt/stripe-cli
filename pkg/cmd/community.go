@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/open"
+	"github.com/HiteshDatt/stripe-cli/pkg/open"
 )
 
 const communityURL = "https://stripe.com/go/developer-chat"

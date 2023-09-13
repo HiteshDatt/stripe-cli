@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
 )
 
 // AddEventsSubCmds adds custom subcommands to the `events` command created

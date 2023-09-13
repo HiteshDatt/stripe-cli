@@ -4,10 +4,10 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/rpcservice"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/rpcservice"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 type daemonCmd struct {

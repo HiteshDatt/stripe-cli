@@ -16,14 +16,14 @@ import (
 
 	"context"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/logtailing"
-	logTailing "github.com/stripe/stripe-cli/pkg/logtailing"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/pkg/validators"
-	"github.com/stripe/stripe-cli/pkg/version"
-	"github.com/stripe/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/logtailing"
+	logTailing "github.com/HiteshDatt/stripe-cli/pkg/logtailing"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
 )
 
 const outputFormatJSON = "JSON"

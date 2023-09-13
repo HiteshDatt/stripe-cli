@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/login/keys"
-	"github.com/stripe/stripe-cli/pkg/open"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/keys"
+	"github.com/HiteshDatt/stripe-cli/pkg/open"
 )
 
 type stubInputReader struct {

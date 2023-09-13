@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
 )
 
 func TestNewOperationCmd(t *testing.T) {

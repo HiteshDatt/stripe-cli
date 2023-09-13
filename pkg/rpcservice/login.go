@@ -3,9 +3,9 @@ package rpcservice
 import (
 	"context"
 
-	"github.com/stripe/stripe-cli/pkg/login"
-	"github.com/stripe/stripe-cli/pkg/stripe"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/login"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 )
 
 var links *login.Links

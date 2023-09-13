@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stripe/stripe-cli/pkg/proxy"
-	"github.com/stripe/stripe-cli/pkg/websocket"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/proxy"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

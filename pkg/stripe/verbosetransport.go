@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // inspectHeaders is the default list of headers that will be printed.

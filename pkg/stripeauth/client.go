@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 const stripeCLISessionPath = "/v1/stripecli/sessions"

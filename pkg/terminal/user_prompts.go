@@ -5,7 +5,7 @@ import (
 
 	"github.com/manifoldco/promptui"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // ReaderTypeSelectPrompt prompts the user to choose which type of reader they want to set up

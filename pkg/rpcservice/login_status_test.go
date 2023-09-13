@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/login"
-	"github.com/stripe/stripe-cli/pkg/login/acct"
-	"github.com/stripe/stripe-cli/pkg/login/keys"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/login"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/keys"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

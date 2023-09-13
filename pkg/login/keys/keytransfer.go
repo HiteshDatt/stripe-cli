@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/stripe/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
 )
 
 // AsyncPollResult is the data returned from polling for keys

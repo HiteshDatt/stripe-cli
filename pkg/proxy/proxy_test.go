@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/requests"
-	"github.com/stripe/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/pkg/requests"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
 )
 
 func TestFilterWebhookEvent(t *testing.T) {

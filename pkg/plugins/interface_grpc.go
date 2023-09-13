@@ -6,7 +6,7 @@ import (
 	hcplugin "github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 
-	"github.com/stripe/stripe-cli/pkg/plugins/proto"
+	"github.com/HiteshDatt/stripe-cli/pkg/plugins/proto"
 )
 
 // DispatcherGRPC is the interface that's implemented by the plugin and used by the host.

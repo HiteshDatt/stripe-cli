@@ -31,7 +31,7 @@ cover: test
 # gofmt and goimports all go files
 fmt:
 	go install golang.org/x/tools/cmd/goimports@v0.5
-	find . -not -path "./rpc*" -not -path "./pkg/plugins/proto*" -name '*.go' | while read -r file; do gofmt -w -s "$$file"; goimports -w -local github.com/stripe/stripe-cli "$$file"; done
+	find . -not -path "./rpc*" -not -path "./pkg/plugins/proto*" -name '*.go' | while read -r file; do gofmt -w -s "$$file"; goimports -w -local github.com/HiteshDatt/stripe-cli "$$file"; done
 .PHONY: fmt
 
 # Run all the linters
@@ -143,9 +143,9 @@ protoc-gen-all: protoc-gen-code protoc-gen-docs protoc-gen-plugin
 protoc-gen-code:
 	@protoc \
 		--go_out=./rpc \
-		--go_opt=module=github.com/stripe/stripe-cli/rpc \
+		--go_opt=module=github.com/HiteshDatt/stripe-cli/rpc \
 		--go-grpc_out=require_unimplemented_servers=false:./rpc \
-		--go-grpc_opt=module=github.com/stripe/stripe-cli/rpc \
+		--go-grpc_opt=module=github.com/HiteshDatt/stripe-cli/rpc \
 		--proto_path ./rpc \
 		./rpc/*.proto \
 	|| (printf ${PROTOC_FAILURE_MESSAGE}; exit 1)
@@ -166,9 +166,9 @@ protoc-gen-docs:
 protoc-gen-plugin:
 	@protoc \
 		--go_out=pkg/plugins \
-		--go_opt=module=github.com/stripe/stripe-cli/plugins \
+		--go_opt=module=github.com/HiteshDatt/stripe-cli/plugins \
 		--go-grpc_out=pkg/plugins \
-		--go-grpc_opt=module=github.com/stripe/stripe-cli/plugins \
+		--go-grpc_opt=module=github.com/HiteshDatt/stripe-cli/plugins \
 	pkg/plugins/proto/main.proto \
 	|| (printf ${PROTOC_FAILURE_MESSAGE}; exit 1)
 	@echo "Successfully compiled proto files for plugins"

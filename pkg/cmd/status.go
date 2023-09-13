@@ -7,10 +7,10 @@ package cmd
 
 // 	"github.com/spf13/cobra"
 
-// 	"github.com/stripe/stripe-cli/pkg/ansi"
-// 	"github.com/stripe/stripe-cli/pkg/status"
-// 	"github.com/stripe/stripe-cli/pkg/validators"
-// 	"github.com/stripe/stripe-cli/pkg/version"
+// 	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+// 	"github.com/HiteshDatt/stripe-cli/pkg/status"
+// 	"github.com/HiteshDatt/stripe-cli/pkg/validators"
+// 	"github.com/HiteshDatt/stripe-cli/pkg/version"
 // )
 
 // type statusCmd struct {

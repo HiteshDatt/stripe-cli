@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/afero"
 	"gopkg.in/src-d/go-git.v4"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	gitpkg "github.com/stripe/stripe-cli/pkg/git"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	gitpkg "github.com/HiteshDatt/stripe-cli/pkg/git"
 )
 
 const sampleListGithubURL = "https://github.com/stripe-samples/samples-list.git"

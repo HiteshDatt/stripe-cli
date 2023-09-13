@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/cmd/resource"
+	"github.com/HiteshDatt/stripe-cli/pkg/cmd/resource"
 )
 
 func addAllResourcesCmds(rootCmd *cobra.Command) {

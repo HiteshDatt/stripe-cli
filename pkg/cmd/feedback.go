@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 type feedbackCmd struct {
@@ -33,7 +33,7 @@ func newFeedbackdCmd() *feedbackCmd {
 
 We'd love to know what you think of the CLI:
 
-* Report bugs or issues on GitHub: https://github.com/stripe/stripe-cli/issues
+* Report bugs or issues on GitHub: https://github.com/HiteshDatt/stripe-cli/issues
 * Leave us feedback on how you're using it or features you'd like to see: %s
 				`
 

@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // SetUpTestPayment asks the user for their payment amount / currency, then updates the reader display, then creates a new Payment Intent

@@ -7,10 +7,10 @@ import (
 
 	"github.com/briandowns/spinner"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/login/keys"
-	"github.com/stripe/stripe-cli/pkg/open"
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/keys"
+	"github.com/HiteshDatt/stripe-cli/pkg/open"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 var openBrowser = open.Browser

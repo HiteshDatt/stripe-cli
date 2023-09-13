@@ -6,8 +6,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/stripe/stripe-cli/pkg/samples"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/samples"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 )
 
 // Make overridable for tests

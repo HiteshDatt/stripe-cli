@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
 )
 
 type mockConfigurer struct {

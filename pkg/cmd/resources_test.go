@@ -8,7 +8,7 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/plugins"
+	"github.com/HiteshDatt/stripe-cli/pkg/plugins"
 )
 
 const (
@@ -44,7 +44,7 @@ func TestConflictWithPluginCommand(t *testing.T) {
 	for _, cmd := range rootCmd.Commands() {
 		for _, pluginCommand := range pluginCommands {
 			// TO-DO: this is a patch.
-			// this check and this patch PR https://github.com/stripe/stripe-cli/pull/887
+			// this check and this patch PR https://github.com/HiteshDatt/stripe-cli/pull/887
 			// should be removed once openapi spec is updated to not use `apps`
 			if cmd.Use == "apps" {
 				continue

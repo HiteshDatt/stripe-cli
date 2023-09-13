@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // ActivationTypeLabels defines the string values offered as options to the user to prompt them to choose a new or registered reader

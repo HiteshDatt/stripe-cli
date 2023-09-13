@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/websocket"
+	"github.com/HiteshDatt/stripe-cli/pkg/websocket"
 )
 
 // WebhookEventProcessorConfig defines the external inputs that infuence the

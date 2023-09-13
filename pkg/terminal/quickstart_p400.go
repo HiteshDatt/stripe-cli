@@ -8,8 +8,8 @@ import (
 
 	"github.com/manifoldco/promptui"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/terminal/p400"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/terminal/p400"
 )
 
 // QuickstartP400 runs the quickstart interactive prompt sequence to walk the user through setting up a P400 reader

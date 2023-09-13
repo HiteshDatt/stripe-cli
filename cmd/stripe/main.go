@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/stripe/stripe-cli/pkg/cmd"
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/cmd"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 func main() {

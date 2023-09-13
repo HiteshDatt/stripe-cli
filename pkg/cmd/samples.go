@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/cmd/samples"
+	"github.com/HiteshDatt/stripe-cli/pkg/cmd/samples"
 )
 
 type samplesCmd struct {

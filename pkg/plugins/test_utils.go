@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/requests"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/requests"
 )
 
 // TestConfig Implementations out several methods

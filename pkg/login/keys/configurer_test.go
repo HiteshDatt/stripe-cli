@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stripe/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
 )
 
 func TestSaveLoginDetails(t *testing.T) {

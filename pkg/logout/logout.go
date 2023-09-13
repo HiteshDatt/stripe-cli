@@ -3,7 +3,7 @@ package logout
 import (
 	"fmt"
 
-	"github.com/stripe/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
 )
 
 // Logout function is used to clear the credentials set for the current Profile

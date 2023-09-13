@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/login/keys"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/keys"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -9,7 +9,7 @@ import (
 
 	"runtime"
 
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 type completionCmd struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/google/go-github/v28/github"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // Version of the CLI.

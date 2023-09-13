@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/login/acct"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/login/acct"
 )
 
 // SuccessMessage returns the display message for a successfully authenticated user

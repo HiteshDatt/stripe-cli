@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/validators"
-	"github.com/stripe/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
 )
 
 type versionCmd struct {

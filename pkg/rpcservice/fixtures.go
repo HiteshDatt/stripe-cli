@@ -3,8 +3,8 @@ package rpcservice
 import (
 	"context"
 
-	"github.com/stripe/stripe-cli/pkg/fixtures"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/fixtures"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 )
 
 // Fixture returns the default fixture of given event in string format

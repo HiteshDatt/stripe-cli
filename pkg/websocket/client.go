@@ -15,7 +15,7 @@ import (
 	ws "github.com/gorilla/websocket"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stripe/stripe-cli/pkg/useragent"
+	"github.com/HiteshDatt/stripe-cli/pkg/useragent"
 )
 
 //

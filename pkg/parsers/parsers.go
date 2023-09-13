@@ -12,7 +12,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/tidwall/gjson"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
 )
 
 // FixtureQuery describes the query in fixture request

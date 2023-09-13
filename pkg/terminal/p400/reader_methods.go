@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/stripe/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
 )
 
 // TerminalSessionContext is a type that contains important context most methods need to know to complete the quickstart flow

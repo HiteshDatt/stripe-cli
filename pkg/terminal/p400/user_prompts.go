@@ -7,8 +7,8 @@ import (
 
 	"github.com/manifoldco/promptui"
 
-	"github.com/stripe/stripe-cli/pkg/ansi"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/ansi"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 // ReaderRegistrationCodePrompt prompts the user to generate a new registration code on their P400 and asks them to enter it at the prompt

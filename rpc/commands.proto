@@ -17,7 +17,7 @@ import "version.proto";
 import "webhook_endpoint_create.proto";
 import "webhook_endpoints_list.proto";
 
-option go_package = "github.com/stripe/stripe-cli/rpc";
+option go_package = "github.com/HiteshDatt/stripe-cli/rpc";
 
 service StripeCLI {
   // Resend an event given an event ID. Like `stripe events resend`.

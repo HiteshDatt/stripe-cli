@@ -35,7 +35,7 @@ Refer to the [installation instructions](https://stripe.com/docs/stripe-cli#inst
 Stripe CLI is available on Windows via the [Scoop](https://scoop.sh/) package manager:
 
 ```sh
-scoop bucket add stripe https://github.com/stripe/scoop-stripe-cli.git
+scoop bucket add stripe https://github.com/HiteshDatt/scoop-stripe-cli.git
 scoop install stripe
 ```
 
@@ -103,7 +103,7 @@ docker run --rm -it -v stripe-config://root/.config/stripe/ -v stripe-gpg://root
 
 ### Without package managers
 
-Instructions are also available for installing and using the CLI [without a package manager](https://github.com/stripe/stripe-cli/wiki/Installing-and-updating#without-a-package-manager).
+Instructions are also available for installing and using the CLI [without a package manager](https://github.com/HiteshDatt/stripe-cli/wiki/Installing-and-updating#without-a-package-manager).
 
 ## Usage
 

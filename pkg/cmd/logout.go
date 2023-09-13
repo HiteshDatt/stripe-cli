@@ -3,8 +3,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/logout"
-	"github.com/stripe/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/logout"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
 )
 
 type logoutCmd struct {

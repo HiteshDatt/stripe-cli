@@ -3,8 +3,8 @@ package rpcservice
 import (
 	"context"
 
-	"github.com/stripe/stripe-cli/pkg/version"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 )
 
 // Version returns the version of the Stripe CLI

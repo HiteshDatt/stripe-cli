@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/stripe/stripe-cli/pkg/stripe"
+	"github.com/HiteshDatt/stripe-cli/pkg/stripe"
 )
 
 //go:embed triggers/*
@@ -42,6 +42,7 @@ var Events = map[string]string{
 	"invoice.created":                          "triggers/invoice.created.json",
 	"invoice.finalized":                        "triggers/invoice.finalized.json",
 	"invoice.paid":                             "triggers/invoice.paid.json",
+	"invoice.paidindia":                        "triggers/invoice.paidindia.json",
 	"invoice.payment_action_required":          "triggers/invoice.payment_action_required.json",
 	"invoice.payment_failed":                   "triggers/invoice.payment_failed.json",
 	"invoice.payment_succeeded":                "triggers/invoice.payment_succeeded.json",

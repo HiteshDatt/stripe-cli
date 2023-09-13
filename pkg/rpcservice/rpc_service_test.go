@@ -5,8 +5,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/rpc"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/rpc"
 
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"

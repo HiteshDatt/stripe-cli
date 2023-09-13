@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/stripe/stripe-cli/pkg/config"
-	"github.com/stripe/stripe-cli/pkg/terminal"
-	"github.com/stripe/stripe-cli/pkg/validators"
-	"github.com/stripe/stripe-cli/pkg/version"
+	"github.com/HiteshDatt/stripe-cli/pkg/config"
+	"github.com/HiteshDatt/stripe-cli/pkg/terminal"
+	"github.com/HiteshDatt/stripe-cli/pkg/validators"
+	"github.com/HiteshDatt/stripe-cli/pkg/version"
 )
 
 // QuickstartCmd starts a prompt flow for connecting a Terminal reader to their Stripe account

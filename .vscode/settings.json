@@ -6,7 +6,7 @@
 
     "go.formatTool": "goimports",
     "go.formatFlags": [
-        "-local", "github.com/stripe/stripe-cli",
+        "-local", "github.com/HiteshDatt/stripe-cli",
     ],
     "go.lintTool": "golangci-lint",
     "go.lintFlags": [

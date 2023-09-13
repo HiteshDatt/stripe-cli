@@ -14,9 +14,9 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/stripe/stripe-cli/pkg/cmd/resource"
-	"github.com/stripe/stripe-cli/pkg/gen"
-	"github.com/stripe/stripe-cli/pkg/spec"
+	"github.com/HiteshDatt/stripe-cli/pkg/cmd/resource"
+	"github.com/HiteshDatt/stripe-cli/pkg/gen"
+	"github.com/HiteshDatt/stripe-cli/pkg/spec"
 )
 
 type TemplateData struct {

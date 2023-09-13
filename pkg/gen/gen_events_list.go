@@ -10,7 +10,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/stripe/stripe-cli/pkg/spec"
+	"github.com/HiteshDatt/stripe-cli/pkg/spec"
 )
 
 type TemplateData struct {

@@ -1,4 +1,4 @@
-module github.com/stripe/stripe-cli
+module github.com/HiteshDatt/stripe-cli
 
 go 1.19
 
