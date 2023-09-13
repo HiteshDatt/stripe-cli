@@ -43,6 +43,7 @@ var Events = map[string]string{
 	"invoice.finalized":                        "triggers/invoice.finalized.json",
 	"invoice.paid":                             "triggers/invoice.paid.json",
 	"invoice.paidindia":                        "triggers/invoice.paidindia.json",
+	"invoice.paidindia2":                        "triggers/invoice.paidindia2.json",
 	"invoice.payment_action_required":          "triggers/invoice.payment_action_required.json",
 	"invoice.payment_failed":                   "triggers/invoice.payment_failed.json",
 	"invoice.payment_succeeded":                "triggers/invoice.payment_succeeded.json",
