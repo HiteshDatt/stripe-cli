@@ -12,8 +12,11 @@
         "email": "jenny@rosen.com",
         "source": "tok_visa",
         "address": {
-          "line1": "1 Main Street",
-          "city": "New York"
+          "line1": "Brimo dev",
+          "postal_code": "110092",
+          "city": "Delhi",
+          "state": "Delhi",
+          "country": "IN"
         }
       }
     },
