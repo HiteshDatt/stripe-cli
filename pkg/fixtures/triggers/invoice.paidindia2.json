@@ -8,21 +8,12 @@
       "path": "/v1/customers",
       "method": "post",
       "params": {
-        "amount": 2000,
-        "confirm": "true",
-        "currency": "usd",
-        "payment_method": "pm_card_visa",
-        "payment_method_types": ["card"],
-        "description": "Test charge",
-        "shipping": {
-          "name": "Jenny Rosen",
-          "address": {
-            "line1": "510 Townsend St",
-            "postal_code": "98140",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "US"
-          }
+        "name": "Jenny Rosen",
+        "email": "jenny@rosen.com",
+        "source": "tok_visa",
+        "address": {
+          "line1": "1 Main Street",
+          "city": "New York"
         }
       }
     },
@@ -31,22 +22,7 @@
       "path": "/v1/payment_methods/pm_card_visa/attach",
       "method": "post",
       "params": {
-        "amount": 2000,
-        "confirm": "true",
-        "currency": "usd",
-        "payment_method": "pm_card_visa",
-        "payment_method_types": ["card"],
-        "description": "Test charge",
-        "shipping": {
-          "name": "Jenny Rosen",
-          "address": {
-            "line1": "510 Townsend St",
-            "postal_code": "98140",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "US"
-          }
-        }
+        "customer": "${customer:id}"
       }
     },
     {
@@ -55,21 +31,9 @@
       "method": "post",
       "params": {
         "amount": 2000,
-        "confirm": "true",
         "currency": "usd",
-        "payment_method": "pm_card_visa",
-        "payment_method_types": ["card"],
-        "description": "Test charge",
-        "shipping": {
-          "name": "Jenny Rosen",
-          "address": {
-            "line1": "510 Townsend St",
-            "postal_code": "98140",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "US"
-          }
-        }
+        "customer": "${customer:id}",
+        "description": "(created by Stripe CLI)"
       }
     },
     {
@@ -77,22 +41,9 @@
       "path": "/v1/invoices",
       "method": "post",
       "params": {
-        "amount": 2000,
-        "confirm": "true",
-        "currency": "usd",
-        "payment_method": "pm_card_visa",
-        "payment_method_types": ["card"],
-        "description": "Test charge",
-        "shipping": {
-          "name": "Jenny Rosen",
-          "address": {
-            "line1": "510 Townsend St",
-            "postal_code": "98140",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "US"
-          }
-        }
+        "customer": "${customer:id}",
+        "description": "(created by Stripe CLI)",
+        "pending_invoice_items_behavior": "include"
       }
     },
     {
@@ -100,22 +51,7 @@
       "path": "/v1/invoices/${invoice:id}/pay",
       "method": "post",
       "params": {
-        "amount": 2000,
-        "confirm": "true",
-        "currency": "usd",
-        "payment_method": "pm_card_visa",
-        "payment_method_types": ["card"],
-        "description": "Test charge",
-        "shipping": {
-          "name": "Jenny Rosen",
-          "address": {
-            "line1": "510 Townsend St",
-            "postal_code": "98140",
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "US"
-          }
-        }
+        "payment_method": "${payment_method:id}"
       }
     }
   ]
